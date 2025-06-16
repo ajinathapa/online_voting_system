@@ -9,7 +9,7 @@ def check_connection():
             password="root",
             port=5432
         )
-        print("Database connection successful!")
+        print("Database con successful!")
     except Exception as e:
         print("Failed to connect to the database:", e)
     finally:
